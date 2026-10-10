@@ -1,15 +1,85 @@
-body { font-family: Arial, sans-serif; background: #f4f6f9; margin: 0; }
-.navbar { background: #1f3a5f; color: white; padding: 15px 30px; display: flex; justify-content: space-between; }
-.navbar a { color: white; text-decoration: none; }
-.container { max-width: 900px; margin: 30px auto; padding: 0 15px; }
-.box { max-width: 350px; margin: 40px auto; background: white; padding: 25px; border-radius: 6px; box-shadow: 0 1px 4px #ccc; }
-input, select { width: 100%; padding: 9px; margin: 6px 0; box-sizing: border-box; }
-button, .btn { background: #1f3a5f; color: white; padding: 9px 14px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; }
-table { width: 100%; background: white; border-collapse: collapse; margin-bottom: 25px; }
-th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
-th { background: #e8edf3; }
-.error { color: #c0392b; }
-.stats { display: flex; gap: 15px; margin-bottom: 20px; }
-.stats div { background: white; padding: 15px 30px; border-radius: 6px; text-align: center; }
-form.inline { display: flex; gap: 6px; flex-wrap: wrap; }
-form.inline input, form.inline select { width: auto; flex: 1; }
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+}
+.navbar {
+  background: #1f3a5f;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.container {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+.box {
+  max-width: 350px;
+  margin: 40px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px #ccc;
+}
+input,
+select {
+  width: 100%;
+  padding: 9px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+button,
+.btn {
+  background: #1f3a5f;
+  color: white;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background: #e8edf3;
+}
+.error {
+  color: #c0392b;
+}
+.stats {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+.stats div {
+  background: white;
+  padding: 15px 30px;
+  border-radius: 6px;
+  text-align: center;
+}
+form.inline {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+form.inline input,
+form.inline select {
+  width: auto;
+  flex: 1;
+}

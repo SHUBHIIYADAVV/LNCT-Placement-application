@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Allen City College Placement</title>
+  <title>LNCT College Placement</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
